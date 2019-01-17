@@ -1,57 +1,29 @@
 =======================
-Using Federation Shares
+Utiliser les partages fédérés
 =======================
 
-Federation Sharing allows you to mount file shares from remote Nextcloud servers, in effect 
-creating your own cloud of Nextclouds. You can create direct share links with 
-users on other Nextcloud servers.
+Le partage fédéré vous permet de monter des partages de fichiers à partir de serveurs Nextcloud distants
+pour pouvoir créer votre propre nuage Nextcloud. Vous pouvez créer des liens de partage directs avec d'autres
+utilisateurs sur d'autres serveurs Nextcloud.
 
-Creating a new Federation Share
+Création d'un nouveau partage fédéré
 -------------------------------
 
-Federation sharing is enabled on new or upgraded Nextcloud installations
-by default. Follow these steps to create a new share with other Nextcloud or ownCloud 9+ servers:
+Le partage de fédération est activé sur les nouvelles installations Nextcloud ou mises à jour
+par défaut. Suivez ces étapes pour créer un nouveau partage avec d'autres serveurs Nextcloud ou ownCloud 9+:
 
-1. Go to your ``Files`` page and click the Share icon on the file or directory 
-you want to share. In the sidebar enter the username and URL of the remote user
-in this form: ``<username>@<oc-server-url>``. In this example, that is
-``layla@remote-server/nextcloud``. The form automatically echoes the address 
-that you type and labels it as "remote". Click on the label.
+1. Allez sur votre page ``Fichier`` et cliquez sur l'icône Partager sur le fichier ou le répertoire que
+vous souhaitez partager. Dans la barre latérale, entrez le nom d'utilisateur et l'URL de l'utilisateur distant.
+sous cette forme: ``<nom d'utilisateur>@<oc-server-url>``. Dans cet exemple, c'est
+``layla@serveur-distant/nextcloud``. Le formulaire reprend automatiquement l'adresse
+que vous tapez et le marque comme "distant". Cliquez sur l'étiquette
 
 .. figure:: ../images/direct-share-1.png
 
-2. When your local Nextcloud server makes a successful connection with the remote
-Nextcloud server you'll see a confirmation. Your only share option is **Can 
-edit**. 
+2. Lorsque votre serveur Nextcloud local établit une connexion avec le serveur distant
+Nextcloud, vous verrez une confirmation. Votre seule option de partage est ** Peut
+modifier**.
    
-Click the Share button anytime to see who you have shared your file with. Remove 
-your linked share anytime by clicking the trash can icon. This only unlinks the 
-share, and does not delete any files.
-
-Creating a new Federated Cloud Share via email
-----------------------------------------------
-
-Use this method when you are sharing with users on ownCloud 8.x and older.
-
-What if you do not know the username or URL? Then you can have Nextcloud create 
-the link for you and email it to your recipient. 
-
-.. figure:: ../images/create_public_share-6.png
-
-When your recipient receives your email they will have to take a number of 
-steps to complete the share link. First they must open the link you sent them in 
-a Web browser, and then click the **Add to your Nextcloud** button.
-
-.. figure:: ../images/create_public_share-8.png
-
-The **Add to your Nextcloud** button changes to a form field, and your recipient 
-needs to enter the URL of their Nextcloud or ownCloud server in this field and press the
-return key, or click the arrow.
-
-.. figure:: ../images/create_public_share-9.png
-
-Next, they will see a dialog asking to confirm. All they have to do is click 
-the **Add remote share** button and they're finished.
- 
-Remove your linked share anytime by clicking the trash can icon. This only 
-unlinks the share, and does not delete any files.
+Cliquez sur le bouton Partager à tout moment pour voir avec qui vous avez partagé votre fichier. Retirer
+votre lien de partage à tout moment en cliquant sur l'icône de la corbeille. Cela ne fait que dissocier le
+partage et ne supprime aucun fichier.
